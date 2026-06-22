@@ -1,0 +1,47 @@
+{
+    "pesos_torneos": {
+        "especificos": {
+            "fifa world cup": 4.0,
+            "fifa world cup qualification": 2.5,
+            "uefa euro": 3.0,
+            "copa america": 3.0,
+            "african cup of nations": 3.0,
+            "afc asian cup": 3.0,
+            "uefa euro qualification": 1.8,
+            "copa america qualification": 1.8,
+            "african cup of nations qualification": 1.8,
+            "afc asian cup qualification": 1.8,
+            "gold cup": 2.5,
+            "uefa nations league": 1.8,
+            "concacaf nations league": 1.3,
+            "fifa confederations cup": 2.5,
+            "gulf cup": 0.7,
+            "arab cup": 0.8,
+            "cafa nations cup": 0.7,
+            "cosafa cup": 0.6,
+            "king's cup": 0.6,
+            "oceania nations cup": 1.2,
+            "kirin cup": 0.6,
+            "al ain international cup": 0.5,
+            "canadian shield": 0.5,
+            "soccer ashes": 0.5,
+            "unity cup": 0.5,
+            "fifa series": 0.8,
+            "friendly": 1.0
+        },
+        "patrones": {
+            "qualification": 1.8,
+            "eliminatorias": 1.8,
+            "friendly": 1.0
+        },
+        "default": 0.8
+    },
+    "parametros_elo": {
+        "k_base": 12.0,
+        "bonus_campo": 100.0,
+        "elo_nuevo": 1500.0
+    },
+    "parametros_simulacion": {
+        "media_goles_partido": 2.6
+    }
+}

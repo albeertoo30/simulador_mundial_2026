@@ -1,0 +1,14 @@
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales (si usas)
+venv/
+env/
+
+# Outputs y experimentos locales
+experimentos/
+graficos/
+probabilidades_campeon_2026.csv
+dataset_simulador_limpio.csv
+rankings_elo_2026.csv
