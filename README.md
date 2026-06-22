@@ -8,7 +8,7 @@ El motor de simulación se basa en un sistema de **Rating Elo** dinámico calcul
 
 * **Motor Elo Personalizado:** Ajusta el nivel de cada selección basándose en un registro histórico limpio, ponderando la importancia de los torneos (Mundiales, Copas Continentales, Amistosos) y la diferencia de goles.
 * **Simulación Estocástica:** Utiliza la probabilidad esperada de victoria para calcular la tasa de goles esperados ($\lambda$) y muestrear resultados realistas mediante distribuciones de Poisson.
-* **Formato Real 2026:** Implementa el fixture oficial de la FIFA de 12 grupos, incluyendo la clasificación de los mejores terceros y todas las rondas eliminatorias con prórrogas y penaltis.
+* **Formato Real 2026:** Implementa el formato oficial de la FIFA de 12 grupos, incluyendo la clasificación de los mejores terceros y todas las rondas eliminatorias con prórrogas y penaltis.
 * **Arquitectura Modular:** Diseñado con separación de responsabilidades. La lógica matemática está aislada de los parámetros de configuración (pesos, variables) centralizados en un `config.json`.
 * **Pipeline Automatizado:** Un orquestador central ejecuta el proceso End-to-End (desde la limpieza de datos hasta la generación de gráficas).
 
@@ -40,7 +40,7 @@ El motor de simulación se basa en un sistema de **Rating Elo** dinámico calcul
 ├── rating_elo.py               # Algoritmo de cálculo del Rating Elo
 ├── simulador_torneo.py         # Lógica del torneo y simulación Monte Carlo
 ├── visualizador.py             # Generación de gráficos (Seaborn/Matplotlib)
-├── pipeline_sensibilidad.py    # Orquestador maestro del pipeline
+├── pipeline_sensibilidad.py    # Orquestador del pipeline
 └── README.md
 ```
 
