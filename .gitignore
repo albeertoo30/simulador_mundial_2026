@@ -1,0 +1,13 @@
+# Caché
+__pycache__/
+*.pyc
+
+# Outputs 
+experimentos/
+graficos/
+
+# Ignorar todos los datasets por defecto
+*.csv
+
+# (Opcional) Si quieres que algún CSV base SÍ se suba, puedes forzarlo con un !
+# !results.csv
