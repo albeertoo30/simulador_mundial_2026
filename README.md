@@ -16,8 +16,8 @@ El motor de simulación se basa en un sistema de **Rating Elo** dinámico calcul
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/TU_USUARIO/simulador-mundial-2026.git
-   cd simulador-mundial-2026
+   git clone https://github.com/TU_USUARIO/simulador_mundial_2026.git
+   cd simulador_mundial_2026
    ```
 
 2. **Instalar dependencias:** Asegúrate de tener Python instalado y ejecuta:
