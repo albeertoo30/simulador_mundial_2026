@@ -2,13 +2,13 @@
 __pycache__/
 *.pyc
 
-# Entornos virtuales (si usas)
-venv/
-env/
-
-# Outputs y experimentos locales
+# Outputs y experimentos
 experimentos/
 graficos/
 probabilidades_campeon_2026.csv
 dataset_simulador_limpio.csv
+dataset_simulador_2026.csv
 rankings_elo_2026.csv
+
+# Datasets pesados
+results.csv
